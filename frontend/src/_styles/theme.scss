@@ -2062,6 +2062,9 @@ input:focus-visible {
   }
 
   .org-users-page {
+    .user-email:hover {
+      text-decoration: none;
+    }
     .user-email,
     .user-status {
       filter: brightness(0) invert(1);
